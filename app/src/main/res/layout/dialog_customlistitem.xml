@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="?selectableItemBackground"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <RadioButton
+        android:id="@+id/md_title"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/md_listitem_margin_left"
+        android:layout_marginStart="@dimen/md_listitem_margin_left"
+        android:textSize="@dimen/md_listitem_textsize"/>
+
+    <ImageView
+        android:id="@+id/md_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/md_dialog_frame_margin"
+        android:layout_marginRight="@dimen/md_dialog_frame_margin"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_file_download" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:indeterminate="false"
+        android:progress="50"
+        android:visibility="gone"/>
+</LinearLayout>

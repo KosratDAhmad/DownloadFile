@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="muainzList">
+        <item>Muazin 1</item>
+        <item>Muazin 2</item>
+        <item>Muazin 3</item>
+    </array>
+</resources>
